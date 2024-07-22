@@ -100,7 +100,6 @@ const Contact = () => {
             </div>
             <div className={`${style.desc}`}>
               <h5>Phone</h5>
-              <p>+91 9924734106</p>
               <p>+91 9737249935</p>
 
             </div>
