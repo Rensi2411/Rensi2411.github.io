@@ -52,7 +52,6 @@ const About = () => {
                 >
       <div className={`${style.container}`}>
         <div className={`${style.leftDiv}`}>
-          {/* <img src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="" /> */}
           <motion.div
             initial={{ y: 0, x: 0 }}
             whileHover={{ y: 10, x: 10 }}
