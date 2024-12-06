@@ -10,8 +10,14 @@ export default function Navbar() {
         id="nav-menu"
         className={`container-fluid fixed-top pe-2 ps-2 pe-sm-5 ps-sm-5 ps-md-5  ps-lg-0 ps-xl-5   pe-md-5  pe-lg-0 pe-xl-5 pt-1 pb-1 ${style.nav_menu}`}
       >
-        <a className="navbar-brand d-flex ms-lg-5 ms-md-0  align-items-center  " href="#">
-          <span className={style.span}>&lt;R</span>Rensi{""}<span style={{ color: 'rgb(49, 175, 228)',fontSize: '22px' }}>/&gt;</span>
+        <a
+          className="navbar-brand d-flex ms-lg-5 ms-md-0  align-items-center  "
+          href="#"
+        >
+          <span className={style.span}>&lt;R</span>Rensi{""}
+          <span style={{ color: "rgb(49, 175, 228)", fontSize: "22px" }}>
+            /&gt;
+          </span>
           <span>
             {/* <img
               className="ms-lg-2 ms-md-2 ms-2 "
@@ -37,42 +43,50 @@ export default function Navbar() {
         >
           <div className="navbar-nav align-items-center ">
             <a
-              className="nav-link home active me-lg-2 me-xl-5  text-info-emphasis "
+              className="nav-link home active me-lg-2 me-xl-4  text-info-emphasis "
               aria-current="page"
               href="#home"
             >
               HOME
             </a>
             <a
-              className="nav-link about active me-lg-2 me-xl-5  text-info-emphasis "
+              className="nav-link about active me-lg-2 me-xl-4  text-info-emphasis "
               aria-current="page"
               href="#about"
             >
               ABOUT
             </a>
             <a
-              className="nav-link skills active me-lg-2 me-xl-5 text-info-emphasis "
+              className="nav-link skills active me-lg-2 me-xl-4 text-info-emphasis "
               aria-current="page"
               href="#skills"
             >
               SKILLS
             </a>
             <a
-              className="nav-link projects active me-lg-2 me-xl-5  text-info-emphasis"
+              className="nav-link projects active me-lg-2 me-xl-4  text-info-emphasis"
               aria-current="page"
               href="#projects"
             >
               PROJECTS
             </a>
             <a
-              className="nav-link active me-lg-2 me-xl-5 text-info-emphasis"
+              className="nav-link active me-lg-2 me-xl-4 text-info-emphasis"
               aria-current="page"
               href="#github"
             >
               GITHUB
             </a>
             <a
-              className="nav-link contact active me-lg-2 me-xl-5  text-info-emphasis"
+              className="nav-link experience active me-lg-2 me-xl-4 text-info-emphasis"
+              aria-current="page"
+              href="#experience"
+            >
+              EXPERIENCE
+            </a>
+
+            <a
+              className="nav-link contact active me-lg-2 me-xl-4  text-info-emphasis"
               aria-current="page"
               href="#contact"
             >
@@ -84,13 +98,13 @@ export default function Navbar() {
               aria-current="page"
               onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/10RC6RmMsnJbVJZYfNfVQRxQyBQj0b2cw/view?usp=sharing"
+                  "https://drive.google.com/file/d/1qiNEvCVQNxBuxLanW970kNQpAblv9p8I/view?usp=sharing"
                 )
               }
               download="Rensi Dudhat-Full Stack Web Developer"
               href={pdf}
             >
-              <button id="resume-button-1"  className={`${style.button} ms-5`}>
+              <button id="resume-button-1" className={`${style.button} ms-5`}>
                 <span className={style.buttonContent}>Resume </span>
               </button>
             </a>

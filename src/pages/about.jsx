@@ -162,7 +162,7 @@ const About = () => {
                 id="resume-link-2"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/10RC6RmMsnJbVJZYfNfVQRxQyBQj0b2cw/view?usp=sharing"
+                    "https://drive.google.com/file/d/1qiNEvCVQNxBuxLanW970kNQpAblv9p8I/view?usp=sharing"
                   )
                 }
                 download="Rensi Dudhat-Full Stack Web Developer"

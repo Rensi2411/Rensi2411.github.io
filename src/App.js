@@ -10,6 +10,7 @@ import Skills from './pages/skills';
 import { useSelector } from 'react-redux';
 import style from "./app.module.css"
 import Tools from './pages/tools';
+import Experience from './pages/experience';  
 function App() {
   const [isH1Visible, setIsH1Visible] = useState(true);
  
@@ -23,6 +24,7 @@ function App() {
       <Tools/>
       <Projects />
       <Github />
+      <Experience/>
       <Contact/>
     </>
   );
