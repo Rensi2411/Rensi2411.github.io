@@ -27,6 +27,7 @@
 .leftDiv img {
   width: 100%;
   /* border: 1px solid #000; */
+  border-radius: 10px;
 }
 
 .back_div {
@@ -35,7 +36,6 @@
   /* width: fit-content; */
   max-width: fit-content;
   border-radius: 10px;
-  border-radius: 5px;
 }
 
 /* -------------left end------------------------- */

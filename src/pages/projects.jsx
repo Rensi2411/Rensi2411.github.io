@@ -22,7 +22,7 @@ const data = [
     id: 1,
     title: "Wine Shop",
     subTitle:
-      "A fully-featured Wineshop built with React-redux.",
+      "A fully-featured Wineshop built using React-redux.",
     img1: wineImg,
     img2: wineSImg,
     desc: "Team of five crafted a simple, user-friendly wineShop for a seamless E-commerce experience.",
